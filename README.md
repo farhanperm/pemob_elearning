@@ -1,16 +1,25 @@
-# flutter_elearning_crud
+# Flutter CRUD Storage Option
 
-A new Flutter project.
+Aplikasi Flutter CRUD sederhana dengan pilihan penyimpanan:
+- Local Storage (SharedPreferences)
+- Cloud Storage (Firebase Firestore)
 
-## Getting Started
+## 🚀 Fitur
+- Create, Read, Update, Delete (CRUD)
+- Pilih jenis storage (Local / Cloud)
+- Satu UI untuk dua sumber data
+- Firebase Firestore integration
 
-This project is a starting point for a Flutter application.
+## 📱 Screenshot Aplikasi
+### Pilih Storage
+![Pilih Storage](screenshots/home.png)
 
-A few resources to get you started if this is your first Flutter project:
+### CRUD Local
+![Local Storage](screenshots/local.png)
+![Tambah Data](screenshots/tambahlocal.png)
+![Edit Data](screenshots/editlocal.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### CRUD Cloud
+![Cloud Storage](screenshots/cloud.png)
+![Tambah Data](screenshots/tambahcloud.png)
+![Database](screenshots/database.png)
